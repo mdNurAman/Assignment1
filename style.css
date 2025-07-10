@@ -67,3 +67,33 @@
 .heading button{
     margin-bottom:237px ;
 }
+
+/* Action Section */
+.actionContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:116px 140px;
+}
+.left{
+    width: 517px;
+}
+.title{
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.subTitle{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: normal;
+    color:#252432 ;
+    margin-bottom: 23px;
+}
+
+.right img{
+    border-radius: 48px;
+
+}
