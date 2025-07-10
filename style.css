@@ -1,0 +1,69 @@
+/* font  */
+/* Raleway Font */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* Inter Font */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* Common Styles */
+.commonButton {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4e47ff;
+  text-align: center;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Head Section */
+.headSection {
+  background-image: url("Assets/Hero-bg.png");
+  background-color: aquamarine;
+  height: 698px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+
+#websiteLogo {
+  font-size: 34px;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+  color: #4e47ff;
+}
+.heading {
+  height: 698px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1 {
+  max-width: 905px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 37px;
+}
+.heading button{
+    margin-bottom:237px ;
+}
