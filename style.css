@@ -298,3 +298,43 @@ form textarea {
 .getButton{
   height:62px ;
 }
+
+/* Footer Section */
+footer{
+  margin-bottom:103px;
+}
+.footerContainer{
+  max-width: 531px;
+  margin: 0 auto;
+}
+.websiteName{
+  margin-top: 104px;
+  font-family: Inter;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  color: #4e47ff;
+  margin-bottom: 10px;
+}
+.subTitleFooter{
+  font-family: Raleway;
+  text-align: center;
+  font-weight: normal;
+  color:#8987A1 ;
+  margin-bottom: 20px;
+
+}
+.footerLinks{
+  display: flex;
+  justify-content: space-around;
+}
+footer li{
+  list-style-type:  none;
+}
+footer li a{
+  font-family: Inter;
+  font-size: large;
+  text-decoration: none;
+  color:#8987A1;
+  margin-bottom:103px;
+}
